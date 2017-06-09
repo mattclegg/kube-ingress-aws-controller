@@ -238,19 +238,7 @@ func findSecurityGroupWithNameTag(svc ec2iface.EC2API, nameTag string) (*securit
 				Values: []*string{
 					aws.String(nameTag),
 				},
-			},
-			{
-				Name: aws.String("tag-key"),
-				Values: []*string{
-					aws.String("aws:cloudformation:logical-id"),
-				},
-			},
-			{
-				Name: aws.String("tag-value"),
-				Values: []*string{
-					aws.String("IngressLoadBalancerSecurityGroup"),
-				},
-			},
+			}
 		},
 	}
 
