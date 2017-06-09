@@ -15,9 +15,9 @@ import (
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/service/cloudformation"
 	"github.com/pkg/errors"
-	"github.com/zalando-incubator/kube-ingress-aws-controller/aws"
-	"github.com/zalando-incubator/kube-ingress-aws-controller/certs"
-	"github.com/zalando-incubator/kube-ingress-aws-controller/kubernetes"
+	"github.com/mattclegg/kube-ingress-aws-controller/aws"
+	"github.com/mattclegg/kube-ingress-aws-controller/certs"
+	"github.com/mattclegg/kube-ingress-aws-controller/kubernetes"
 )
 
 type managedItem struct {

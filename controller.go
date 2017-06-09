@@ -12,9 +12,9 @@ import (
 	"io/ioutil"
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/zalando-incubator/kube-ingress-aws-controller/aws"
-	"github.com/zalando-incubator/kube-ingress-aws-controller/certs"
-	"github.com/zalando-incubator/kube-ingress-aws-controller/kubernetes"
+	"github.com/mattclegg/kube-ingress-aws-controller/aws"
+	"github.com/mattclegg/kube-ingress-aws-controller/certs"
+	"github.com/mattclegg/kube-ingress-aws-controller/kubernetes"
 )
 
 var (
