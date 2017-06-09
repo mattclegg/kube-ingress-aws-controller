@@ -238,7 +238,7 @@ func findSecurityGroupWithNameTag(svc ec2iface.EC2API, nameTag string) (*securit
 				Values: []*string{
 					aws.String(nameTag),
 				},
-			}
+			},
 		},
 	}
 
